@@ -22,8 +22,8 @@ func _get_property_list() -> Array:
 	var ret: Array = []
 	
 	for _stat in ALStats.STATS[_stats_type].keys():
-		var _type = typeof(ALStats.STATS[_stats_type][_stat])
-		var _st_name = ALStats.STAT.keys()[_stat]
+		var _type : int = typeof(ALStats.STATS[_stats_type][_stat])
+		var _st_name : String = ALStats.STAT.keys()[_stat]
 		
 		if _st_name.to_upper() in ALStats:
 			var _dict = ALStats.get(_st_name.to_upper())
