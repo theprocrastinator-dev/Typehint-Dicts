@@ -16,8 +16,7 @@ var setup : Dictionary = ALStats.STATS.duplicate(true)
 
 var base : Dictionary # base (base) interchangeable stats
 # base stats dictionary (exportable for change in between different
-# unit scenes, enemies' & so on) - this dictionary is read-only; only editable ones are
-# default (for layout changes inside of the character's inventory) & current (during gameplay)
+# unit scenes, enemies' & so on) - this dictionary is read-only;
 
 func _get_property_list() -> Array:
 	var ret: Array = []
