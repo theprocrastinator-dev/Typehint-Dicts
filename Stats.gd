@@ -25,8 +25,10 @@ func _get_property_list() -> Array:
 		var _type : int = typeof(ALStats.STATS[_stats_type][_stat])
 		var _st_name : String = ALStats.STAT.keys()[_stat]
 		
-		if _st_name.to_upper() in ALStats:
-			var _dict = ALStats.get(_st_name.to_upper())
+		var _dropdown_dict : String = _st_name.to_upper()
+		
+		if _dropdown_dict in ALStats:
+			var _dict = ALStats.get(_dropdown_dict)
 			ret.append({
 				"name": ALStats.TYPES.keys()[_stats_type] + "/" +_st_name,
 				"type": _type,
