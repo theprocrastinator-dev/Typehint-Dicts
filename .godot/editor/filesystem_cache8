@@ -1,0 +1,15 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1695740994
+array_sorter.gd::GDScript::-1::1695740795::0::1::::ArraySorter<>RefCounted<>::
+autoload_stats.gd::GDScript::-1::1695740760::0::1::::<>Node<>::
+default_env.tres::Environment::-1::1695739880::0::1::::<><>::
+icon.png::CompressedTexture2D::2294990676054549515::1695739880::1695739906::1::::<><>::
+::res://object_stats_node/::1695741048
+object_stats_node.gd::GDScript::-1::1695741043::0::1::::ObjectStatsNode<>Node<>::
+object_stats_node.tscn::PackedScene::2067280631559490691::1695741048::0::1::::<><>::res://object_stats_node/object_stats_node.gd<>res://stats/object_stats/object_stats.gd
+::res://stats/::1695740941
+stats.gd::GDScript::-1::1695740803::0::1::::Stats<>Resource<>::
+stats.tres::Resource/Stats::6736040364533805359::1695740906::0::1::::<><>::res://stats/stats.gd
+::res://stats/object_stats/::1695741041
+object_stats.gd::GDScript::-1::1695740907::0::1::::ObjectStats<>Stats<>::
+object_stats.tres::Resource/ObjectStats::7815116769023519241::1695741007::0::1::::<><>::res://stats/object_stats/object_stats.gd
