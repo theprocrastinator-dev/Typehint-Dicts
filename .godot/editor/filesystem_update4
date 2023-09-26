@@ -1,5 +1,3 @@
 res://object_stats_node/object_stats_node.tscn
 res://stats/object_stats/object_stats.tres
 res://object_stats_node/object_stats_node.gd
-res://stats/merger_stats/merger_stats.gd
-res://stats/merger_stats/merger_stats.tres

@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://object_stats_node/object_stats_node.gd" id="1_ewffd"]
 [ext_resource type="Script" path="res://stats/object_stats/object_stats.gd" id="2_dmji8"]
 
-[sub_resource type="Resource" id="Resource_eoc1c"]
+[sub_resource type="Resource" id="Resource_xx4n2"]
 resource_local_to_scene = true
 script = ExtResource("2_dmji8")
 stats_type = 0
@@ -18,4 +18,4 @@ CHARACTER/STEERING_SPEED = 0.0
 
 [node name="object_stats_node" type="Node"]
 script = ExtResource("1_ewffd")
-_object_stats = SubResource("Resource_eoc1c")
+_object_stats = SubResource("Resource_xx4n2")
